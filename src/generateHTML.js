@@ -16,7 +16,6 @@ const generateManager = function (manager) {
     `;
 }
 
-// create Engineer card
 const generateEngineer = function (engineer) {
     return `
     <div class="col-4 mt-4">
@@ -35,7 +34,6 @@ const generateEngineer = function (engineer) {
     `
 }
 
-// create Intern card 
 const generateIntern = function (intern) {
     return `
     <div class="col-4 mt-4">
@@ -54,7 +52,7 @@ const generateIntern = function (intern) {
     `
 };
 
-// push array to page 
+// push array  
 generateHTML = (data) => {
 
     // array for cards 
@@ -65,21 +63,19 @@ generateHTML = (data) => {
         const role = employee.getRole(); 
 
 
-        // call manager function
+        // call functions
         if (role === 'Manager') {
             const managerCard = generateManager(employee);
 
             pageArray.push(managerCard);
         }
 
-        // call engineer function
         if (role === 'Engineer') {
             const engineerCard = generateEngineer(employee);
 
             pageArray.push(engineerCard);
         }
 
-        // call intern function 
         if (role === 'Intern') {
             const internCard = generateIntern(employee);
 
