@@ -19,14 +19,15 @@ To run the application , from the root folder type node index and answer the que
 
 # Demo
 
-https://watch.screencastify.com/v/Yo7UhPeq9ATFK3QMtJM2
+https://watch.screencastify.com/v/CUIc3jL8nrZqPbAb1Cie
 
 # Screenshot of example HTML file
 
 ![View](screenshot.png)
 
 
-#GitHub Repo Link : 
+# GitHub Repo Link : 
+https://github.com/AkhilaSrinagula/10-Team-Profile-Generator.git
 
 # Tests
 
